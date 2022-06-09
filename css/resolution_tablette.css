@@ -1,0 +1,51 @@
+header img{
+    margin: 25px 50px;
+}
+header a:hover, header a:focus {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+    background-color: #f2f2f2;
+}
+header ul{
+    padding: 0;
+}
+header a{
+    font-size: 17px;
+}
+.request{
+    margin-top: 20px;
+}
+.request h1{
+    font-size: 130%;
+}
+.fa-location-dot{
+    font-size: 20px;
+    padding: 15px 20px 17px;
+}
+input{
+    padding: 11px;
+    font-size: 20px;
+}
+button{
+    padding: 0 15px;
+    font-size: 20px;
+}
+.filters{
+    gap: 3%;
+}
+.heb_pop{
+    display: flex;
+    flex-direction: column;
+}
+#hebergement{
+    order: 2;
+    width: fit-content;
+}
+#populaire{
+    order: 1;
+    margin: 4%;
+    width: fit-content;
+}
+.card_3_long, .card_3_short, .card_3_mid{
+    min-width: 160px;
+}
